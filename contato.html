@@ -16,6 +16,10 @@
     background: #f8f9fa;
   }
 
+  .container {
+    padding: 15px;
+  }
+
   h4,
   h3 {
     font-size: 25px;
@@ -30,68 +34,71 @@
   li {
     padding: 5px;
   }
-
-  footer {
-    background: #D3D3D3;
-    padding: 20px;
-  }
 </style>
 
 <body>
-  <nav class="navbar navbar-expand-md navbar-light bg-light">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <div class="container">
+  <header class="masthead mb-auto">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
         <a href="index.html"><img src="lages.png" width="200" height="100"></a>
+        <div class="container">
+
+          <ul class="navbar-nav mr-auto">
+            <h5 class="my-0 mr-md-auto font-weight-normal"></h5>
+            <li class="nav-item active"> <a href="index.html" class="nav-link">Principal</a> </li>
+            <li class="nav-item active"> <a href="login.html" class="nav-link">Login</a> </li>
+            <li class="nav-item active"> <a href="cadastro.html" class="nav-link">Cadastro</a> </li>
+            <li class="nav-item active"> <a href="programação.html" class="nav-link">Programação</a>
+            </li>
+            <li class="nav-item active"> <a href="sobre.html" class="nav-link">Sobre</a> </li>
+            <li class="nav-item active"> <a href="contato.html" class="nav-link">Contato</a> </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-12">
+        <h4>Horários </h4>
+        <hr>
+        <ul style="list-style-type:none; padding: 0;">
+          <li>Das 8:00h ao 12:00h.</li>
+          <li>Das 13:30h as 17:00h.</li>
+          <li>Das 18:30h as 22:00h.</li>
+        </ul>
       </div>
 
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active"> <a href="index.html" class="nav-link">Principal</a> </li>
-        <li class="nav-item active"> <a href="login.html" class="nav-link">Login</a> </li>
-        <li class="nav-item active"> <a href="cadastro.html" class="nav-link">Cadastro</a> </li>
-        <li class="nav-item active"> <a href="programação.html" class="nav-link">Programação</a> </li>
-        <li class="nav-item active"> <a href="sobre.html" class="nav-link">Sobre</a> </li>
-        <li class="nav-item active"> <a href="contato.html" class="nav-link">Contato</a> </li>
-      </ul>
+      <div class="col-sm-12">
+        <h4>Endereço: </h4>
+        <hr>
+        <p> R. Heitor Villa Lobos, 222 São Francisco Lages – SC 88506-400</p>
+      </div>
 
-    </div>
-  </nav>
-  <div id="wrapper" class="container">
+      <div class="col-sm-12">
+        <h4>Contato:</h4>
+        <hr>
+        <p>Telefone: (49) 3221-4200 </p>
+      </div>
 
-    <header>
-      <h1>Contato</h1>
-      <hr>
-    </header>
+      <div class="col-sm-12">
+        <h4>Localização</h4>
+        <hr>
 
-    <div id="container">
-      <section id="introducao">
-        <h3>Endereço:</h3>
-        <br>
-        R. Heitor Villa Lobos, 222<br>
-        São Francisco<br>
-        Lages - SC<br>
-        88506-400<br><br>
+        <div class="map-responsive">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3529.14812050852!2d-50.339757784773425!3d-27.80521123771203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e018b1f588926d%3A0x3e6066bf0fc8fdb1!2sIFSC+C%C3%A2mpus+Lages!5e0!3m2!1spt-BR!2sbr!4v1542219631301"
+            width="250" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
 
-        <h3>Contato :</h3>
-        <br>
-        Telefone: (49) 3221-4200
-        <br><br>
 
-        <h3>E-mail geral do Campus:</h3>
-        <br>
-        lages@ifsc.edu.br
-        <br><br>
-
-        <h3>Horários de Atendimento em nosso local.</h3>
-        <br>
-        <p>Das 8:00h ao 12:00h <br>
-          Das 13:30h às 17:00h <br>
-          Das 18:30h às 22:00h</p>
-    </div>
-    </section>
-  </div>
 
 
 </body>
