@@ -1,0 +1,46 @@
+a,
+a:focus,
+a:hover {
+    color: #fff;
+}
+
+li {
+    padding: 5px;
+}
+
+html,
+body {
+    height: 100%;
+    background-color:#33733f;
+
+}
+
+body {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: #fff;
+
+
+}
+
+.cover-container {
+    max-width: 42em;
+}
+
+@media (min-width: 48em) {
+    .masthead-brand {
+        float: left;
+    }
+
+    .nav-masthead {
+        float: right;
+    }
+}
+
+.mastfoot {
+    color: rgba(255, 255, 255, .5);
+}
