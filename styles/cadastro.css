@@ -1,0 +1,28 @@
+footer {
+    background: #f8f9fa;
+    color: black;
+    padding: 30px;
+}
+
+li {
+    padding: 5px;
+}
+
+.esp {
+    padding: 30px;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}

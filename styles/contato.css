@@ -1,0 +1,22 @@
+nav {
+    background: #f8f9fa;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  h4,
+  h3 {
+    font-size: 25px;
+    color: black;
+  }
+
+  h4,
+  p {
+    color: black;
+  }
+
+  li {
+    padding: 5px;
+  }
